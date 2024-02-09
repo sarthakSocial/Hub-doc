@@ -30,10 +30,10 @@ A UserDataAddBody within a Message m is considered valid only if it satisfies th
 5. If m.data.body.type is USER_DATA_TYPE_DISPLAY, the value must not exceed 32 bytes.
 6. If m.data.body.type is USER_DATA_TYPE_BIO, the value must not exceed 256 bytes.
 7. If m.data.body.type is USER_DATA_TYPE_URL, the value must not exceed 256 bytes.
-8. If m.data.body.type is USER_DATA_TYPE_USERNAME, the value must map to a valid fname.
+8. If m.data.body.type is USER_DATA_TYPE_USERNAME, the value must map to a valid sname.
 9. If m.data.body.type is USER_DATA_TYPE_COVERPIC, the value must not exceed 256 bytes.
 10. m.data.body.value must be a valid UTF-8 string.
 
-A username is deemed valid only if the latest event associated with the Socon Id is a Transfer event, with the custody address specified in the to property. If a previously valid username for a particular Socon Id becomes invalid, and there exists a UserDataAdd message for that fid with the same username as its value, it must be revoked. The validation of username proofs is conducted once daily to ascertain their current validity status.
+A username is deemed valid only if the latest event associated with the Socon Id is a Transfer event, with the custody address specified in the to property. If a previously valid username for a particular Socon Id becomes invalid, and there exists a UserDataAdd message for that sid with the same username as its value, it must be revoked. The validation of username proofs is conducted once daily to ascertain their current validity status.
 
 <!-- <Add Code Snippet> -->

@@ -7,7 +7,7 @@ SoCon leverages a set of onchain contracts to manage and secure user accounts. T
 ### 1. Id Registry
 
 - **Address:** `0x00000000fc6c5f01fc30151999387bb99a9f489b`
-- **Functionality:** The Id Registry is responsible for creating, transferring, and recovering SoCon accounts. Each account is uniquely identified by a Socon ID (fid) assigned to an Ethereum address during registration. Users can transfer their accounts freely, and a recovery address can be specified to transfer the account at any time.
+- **Functionality:** The Id Registry is responsible for creating, transferring, and recovering SoCon accounts. Each account is uniquely identified by a Socon ID (sid) assigned to an Ethereum address during registration. Users can transfer their accounts freely, and a recovery address can be specified to transfer the account at any time.
 
 ### 2. Storage Registry
 

@@ -12,7 +12,7 @@ enum SignatureScheme {
 ```
 ## Signers
 
-A Signer, which consists of an Ed25519 key pair, enables applications to validate messages. Users grant authorization to an application's Signer by providing a signature from their custody address, which currently holds their fid. Once authorized, the application can utilize the Signer to validate Posts, Reactions, and Verifications on behalf of the user. Users retain the ability to revoke a Signer at any point by providing a signature from their custody address.
-Adding or removing a Signer involves registering the public key of the signer to a fid using a smart contract located at a predefined address. Signers can only be added to the fid owned by the caller of the contract.
+A Signer, which consists of an Ed25519 key pair, enables applications to validate messages. Users grant authorization to an application's Signer by providing a signature from their custody address, which currently holds their sid. Once authorized, the application can utilize the Signer to validate Posts, Reactions, and Verifications on behalf of the user. Users retain the ability to revoke a Signer at any point by providing a signature from their custody address.
+Adding or removing a Signer involves registering the public key of the signer to a sid using a smart contract located at a predefined address. Signers can only be added to the sid owned by the caller of the contract.
 
 <!-- <Add Code Snippet > -->
