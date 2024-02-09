@@ -48,8 +48,8 @@ A MessageType specifies the purpose of a message and the anticipated content wit
 ```protobuf
 enum MessageType {
  MESSAGE_TYPE_NONE = 0;
- MESSAGE_TYPE_CAST_ADD = 1; // Add a new Post
- MESSAGE_TYPE_CAST_REMOVE = 2; // Remove an existing Post
+ MESSAGE_TYPE_POST_ADD = 1; // Add a new Post
+ MESSAGE_TYPE_POST_REMOVE = 2; // Remove an existing Post
  MESSAGE_TYPE_REACTION_ADD = 3; // Add a Reaction to a Post
  MESSAGE_TYPE_REACTION_REMOVE = 4; // Remove a Reaction from a Post
  MESSAGE_TYPE_LINK_ADD = 5; // Add a new Link
