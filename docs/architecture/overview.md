@@ -29,7 +29,7 @@ SoCon's architecture is designed to provide a decentralized, secure, and scalabl
 
 ### [ID Registry](/docs/architecture/smart-contracts/id-registry.md)
 
-- **Account Creation:** The ID Registry manages the creation of SoCon accounts by assigning unique Farcaster IDs (fids) to Ethereum addresses. It initiates the process of obtaining a username, renting storage, and adding keys.
+- **Account Creation:** The ID Registry manages the creation of SoCon accounts by assigning unique Socon IDs (fids) to Ethereum addresses. It initiates the process of obtaining a username, renting storage, and adding keys.
 
 
 ### [Name Registry](/docs/architecture/smart-contracts/name-registry.md)

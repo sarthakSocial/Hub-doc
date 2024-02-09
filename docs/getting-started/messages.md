@@ -26,8 +26,8 @@ Accounts can generate keys and share them with apps, empowering these applicatio
 
 SoCon supports various message types, each serving a specific purpose:
 
-- **Casts:** Public messages visible to anyone. Example: "Hello world!"
-- **Reactions:** Express relationships between accounts and casts. Example: Alice liked Bob's cast.
+- **Posts:** Public messages visible to anyone. Example: "Hello world!"
+- **Reactions:** Express relationships between accounts and posts. Example: Alice liked Bob's post.
 - **Links:** Represent relationships between two accounts. Example: Alice follows Bob.
 - **Profile Data:** Metadata about the account, including profile pictures and display names.
 - **Verifications:** Proofs of ownership, such as Ethereum addresses.
@@ -41,7 +41,7 @@ SoCon supports various message types, each serving a specific purpose:
 
 Maintaining messages on the SoCon network requires rent payment to prevent spamming. Accounts can rent storage units through on-chain transactions with the Storage Registry. Each storage unit costs $7, lasts for one year, and allows the account to store a specific number of messages for each type. The current limits are:
 
-- 5000 Casts
+- 5000 Posts
 - 2500 Reactions
 - 2500 Links
 - 50 Profile Data

@@ -59,6 +59,6 @@ message GossipMessage {
 6. peerId (Uint8Array): An array of bytes representing the peer ID.
 7. version (GossipVersion): An enum representing the version of the gossip message.
 
-Hubs are required to receive all messages on the messages topic, merge them, and subsequently rebroadcast the merged messages to other hubs. Additionally, hubs must share their contact information every 60 seconds on the contact_info topic.
+Hubs are required to receive all messages on the messages topic, merge them, and subsequently rebroadpost the merged messages to other hubs. Additionally, hubs must share their contact information every 60 seconds on the contact_info topic.
 
 <!-- <Add Code Snippet > -->

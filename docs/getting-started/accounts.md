@@ -4,7 +4,7 @@ Unlock the full potential of your SoCon experience by creating and managing your
 
 ## Creating a SoCon Account
 
-A SoCon account serves as your gateway to the SoCon platform, allowing you to set up a unique username, showcase a profile picture, and share your thoughts through short text messages known as casts. To register a SoCon account, follow these steps:
+A SoCon account serves as your gateway to the SoCon platform, allowing you to set up a unique username, showcase a profile picture, and share your thoughts through short text messages known as posts. To register a SoCon account, follow these steps:
 
 1. **Initiate Registration:** Call the IdGateway contract to create a new SoCon ID (sid) associated with your Ethereum address.
 
@@ -20,4 +20,4 @@ Security is a priority, and SoCon provides a straightforward account recovery pr
 
 2. **Trusted Services or Self-Management:** Users can set the recovery address to trusted services for hassle-free recovery. Alternatively, manage the recovery process independently using a regular Ethereum wallet.
 
-Embrace the SoCon community by creating and managing your SoCon account efficiently. Whether you're expressing yourself through casts or exploring the vast features, a well-managed account enhances your overall SoCon experience. Check out the detailed [authentication flow](/docs/user-flows/authentication.md) for more information.
+Embrace the SoCon community by creating and managing your SoCon account efficiently. Whether you're expressing yourself through posts or exploring the vast features, a well-managed account enhances your overall SoCon experience. Check out the detailed [authentication flow](/docs/user-flows/authentication.md) for more information.

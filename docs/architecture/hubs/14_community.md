@@ -57,9 +57,9 @@ This message represents the removal of a community. It includes a single field:
 
 ```protobuf
 message CommunityMsgAddBody {
- repeated string urls = 1; // URLs to be embedded in the cast
+ repeated string urls = 1; // URLs to be embedded in the post
  string msg = 2;
- repeated uint64 mention_sids = 3; // SoconIds mentioned in the cast
+ repeated uint64 mention_sids = 3; // SoconIds mentioned in the post
  CommunityId community_id = 4; // CommunityId to react
  repeated Media medias = 5;  // add multiple media files
 }

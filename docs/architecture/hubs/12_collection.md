@@ -19,8 +19,8 @@ This message represents a collection, typically comprising a curated set of post
 ```protobuf
 /** Identifier used to look up a post */
 message PostId {
-uint64 soconId = 1; // SoconId of the user who created the cast
-bytes hash = 2; // Hash of the cast
+uint64 soconId = 1; // SoconId of the user who created the post
+bytes hash = 2; // Hash of the post
 }
 ```
 ### PostId
