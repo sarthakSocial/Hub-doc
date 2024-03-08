@@ -1,6 +1,7 @@
 # SoCon Hubs Overview
 Hubs play a central role in the SoCon ecosystem, forming a distributed network of servers designed to store and validate SoCon data. Here's an overview of the key concepts related to SoCon Hubs:
 ![hub architecture](/assets//overall-architecture.png)
+![hub architecture](/assets//overall-engine-architecture.png)
 
 ## What are Hubs?
 
